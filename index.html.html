@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Technology in Lloa's Daily Activities</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f7f9;
+    color:#333;
+    line-height:1.8;
+}
+
+/* MENU */
+
+nav{
+    background:#1e5631;
+    padding:15px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    list-style:none;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#c8f7c5;
+}
+
+/* HERO */
+
+.hero{
+    height:70vh;
+    background:
+    linear-gradient(rgba(0,0,0,.5),
+    rgba(0,0,0,.5)),
+    url("images/portada.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:1.2rem;
+}
+
+/* CONTENT */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:40px 0;
+}
+
+.section{
+    background:white;
+    margin-bottom:30px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+.section h2{
+    color:#1e5631;
+    margin-bottom:15px;
+}
+
+/* IMAGE CARDS */
+
+.card-image{
+    width:100%;
+    max-height:400px;
+    object-fit:cover;
+    border-radius:10px;
+    margin:20px 0;
+}
+
+/* GALLERY */
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:20px;
+}
+
+.gallery img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+    transition:.4s;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+/* FOOTER */
+
+footer{
+    background:#1e5631;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* BUTTON */
+
+.top-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#1e5631;
+    color:white;
+    text-decoration:none;
+    padding:12px 18px;
+    border-radius:50px;
+    font-weight:bold;
+}
+
+.top-btn:hover{
+    background:#2e8b57;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2rem;
+}
+
+.hero p{
+    font-size:1rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<a id="top"></a>
+
+<nav>
+    <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#communication">Communication</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#agriculture">Agriculture</a></li>
+        <li><a href="#tourism">Tourism</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+    </ul>
+</nav>
+
+<header class="hero">
+    <div>
+        <h1>Technology in Lloa's Daily Activities</h1>
+        <p>How technology improves communication, education, agriculture, tourism, and quality of life.</p>
+    </div>
+</header>
+
+<div class="container">
+
+    <section id="intro" class="section">
+        <h2>Introduction</h2>
+
+        <p>
+            Lloa is a rural parish located southwest of Quito, Ecuador. It is recognized for its natural beauty, agricultural activities, and growing tourism sector. In recent years, technology has become a fundamental tool for improving the quality of life of its residents and supporting the development of the community. The use of digital devices, internet services, and communication technologies has transformed the way people work, study, communicate, and access information.
+        </p>
+
+        <p>
+            Technological advancements have allowed people to obtain information more quickly, communicate with family members who live far away, improve productive activities, and promote local tourist attractions. Technology has also helped small businesses advertise their products and services online, increasing their visibility and attracting new customers. As a result, technology has become an essential part of daily life in Lloa and continues to create new opportunities for social and economic growth.
+        </p>
+    </section>
+
+    <section id="communication" class="section">
+        <h2>Technology in Communication</h2>
+
+        <img src="communication.jpeg" alt="Communication Technology" class="card-image">
+
+        <p>
+            One of the most significant changes that technology has brought to Lloa is the improvement in communication. In the past, people depended mainly on face-to-face conversations or traditional telephone services. Today, many residents use smartphones, messaging applications, and social media platforms such as WhatsApp, Facebook, Instagram, and TikTok to stay connected.
+        </p>
+
+        <p>
+            Internet access allows residents to communicate instantly with relatives, friends, businesses, and local authorities. Information can be shared quickly, making it easier to organize community activities, announce important events, and respond to emergencies. Communication technologies also allow local entrepreneurs to interact directly with their customers, answer questions, and promote their products and services efficiently.
+        </p>
+
+        <p>
+            In addition, technology enables people to participate in virtual meetings, online workshops, and digital events without having to travel long distances. This is especially important in rural areas where transportation may not always be readily available. As a result, communication technologies help strengthen social connections and improve access to information.
+        </p>
+    </section>
+
+    <section id="education" class="section">
+        <h2>Technology in Education</h2>
+
+        <img src="education.jpeg" alt="Education Technology" class="card-image">
+
+        <p>
+            Education has benefited significantly from the use of technology in Lloa. Students now have access to a wide variety of educational resources, including online libraries, educational videos, virtual classrooms, and interactive learning platforms. These tools allow students to expand their knowledge beyond traditional textbooks and explore topics in greater depth.
+        </p>
+
+        <p>
+            Teachers also benefit from technology by using digital tools to prepare lessons, create presentations, and share educational materials. Through online platforms, teachers can provide assignments, monitor student progress, and maintain communication with parents and students.
+        </p>
+
+        <p>
+            Technology encourages independent learning and helps students develop important digital skills that will be valuable in their future careers. Many students can participate in online courses, educational competitions, and virtual training programs that broaden their educational opportunities. Access to technology also promotes creativity, critical thinking, and problem-solving abilities, which are essential skills in today's world.
+        </p>
+
+        <p>
+            Furthermore, technology helps reduce educational barriers by making information available at any time and from almost anywhere. This contributes to a more inclusive and accessible learning environment for students in rural communities like Lloa.
+        </p>
+    </section>
+
+    <section id="agriculture" class="section">
+        <h2>Technology in Agriculture and Livestock Farming</h2>
+
+        <img src="agriculture.jpeg" alt="Agriculture Technology" class="card-image">
+
+        <p>
+            Agriculture and livestock farming are among the most important economic activities in Lloa. Technology has contributed greatly to improving productivity and efficiency in these sectors. Farmers can use irrigation systems, modern machinery, weather forecasting services, and digital applications to manage their agricultural activities more effectively.
+        </p>
+
+        <p>
+            Access to weather forecasts allows farmers to plan planting and harvesting schedules more accurately, reducing the risk of crop losses caused by unexpected weather conditions. Mobile applications provide information about fertilization techniques, pest control methods, soil management, and crop monitoring, helping farmers make informed decisions.
+        </p>
+
+        <p>
+            In livestock farming, technology assists with monitoring animal health, tracking feeding schedules, and improving breeding practices. Digital record-keeping systems help farmers manage production more efficiently and maintain better control over their operations.
+        </p>
+
+        <p>
+            These technological innovations contribute to higher productivity, improved product quality, lower operating costs, and increased income for rural families. By adopting modern technologies, farmers and livestock producers can become more competitive and sustainable in a changing economic environment.
+        </p>
+    </section>
+
+    <section id="tourism" class="section">
+        <h2>Technology in Tourism</h2>
+
+        <img src="tourism.jpeg" alt="Tourism Technology" class="card-image">
+
+        <p>
+            Tourism is another important sector that has benefited from technological development in Lloa. The parish is known for its beautiful landscapes, hiking trails, viewpoints, rivers, and outdoor recreational activities. Technology plays a crucial role in promoting these attractions to a wider audience.
+
+        <p>
+            Through websites, social media platforms, and digital marketing strategies, tourists can learn about Lloa before planning their visits. Local businesses use online platforms to advertise accommodations, restaurants, guided tours, and recreational services. This helps attract visitors from different parts of Ecuador and even from other countries.
+        </p>
+
+        <p>
+            Navigation applications such as digital maps and GPS systems make it easier for tourists to locate destinations and travel safely. Visitors can access information about routes, distances, and nearby attractions directly from their mobile devices.
+        </p>
+
+        <p>
+            Photography and video content also contribute significantly to tourism promotion. High-quality images and videos shared on social media inspire people to visit Lloa and experience its natural beauty. As tourism grows, local businesses benefit from increased customer demand, creating new employment opportunities and supporting economic development.
+        </p>
+    </section>
+
+    <section id="benefits" class="section">
+        <h2>Benefits of Technology in Daily Life</h2>
+
+        <p>
+            The use of technology in Lloa has generated numerous benefits for residents. One of the most important advantages is the improvement of communication and access to information. People can stay informed about local, national, and international events while maintaining contact with family and friends.
+        </p>
+
+        <p>
+            Technology has also improved productivity in agriculture, livestock farming, education, and tourism. Digital tools help individuals and businesses save time, reduce costs, and increase efficiency. Online services allow residents to complete procedures, make purchases, access banking services, and obtain information without traveling long distances.
+        </p>
+             
+        <p>
+            Another important benefit is the promotion of entrepreneurship. Small businesses can use social media, websites, and digital advertising to reach a larger audience and expand their customer base. This contributes to economic growth and encourages innovation within the community.
+        </p>
+
+        <p>
+            Technology also supports healthcare by providing access to medical information, online consultations, and health-related resources. In addition, digital tools help residents organize daily activities, manage schedules, and improve overall productivity.
+        </p>
+
+        <p>
+            Despite its many advantages, it is important to encourage the responsible use of technology. Maintaining a healthy balance between digital activities and personal interactions helps ensure that technology remains a positive force in people's lives.
+        </p>
+
+        <div class="gallery">
+
+            <img src="communication.jpeg">
+
+            <img src="education.jpeg">
+
+            <img src="agriculture.jpeg"> 
+            
+            <img src="tourism.jpeg">
+
+        </div>
+
+    </section>
+
+    <section id="conclusion" class="section">
+        <h2>Conclusion</h2>
+
+        <p>
+            Technology has become an essential part of daily life in Lloa and continues to transform how people communicate, learn, work, and promote local development. Its application has improved access to information, strengthened educational opportunities, increased agricultural productivity, and enhanced tourism promotion.
+        </p>
+
+        <p>
+            As technological innovation continues to advance, it will be important for residents to develop digital skills and adapt to new tools and opportunities. By embracing technology responsibly and effectively, the people of Lloa can continue improving their quality of life while supporting the social, educational, and economic growth of their community.
+        </p>
+
+        <p>
+            Technology is not only a tool for modernization but also a key factor in creating a more connected, productive, and prosperous future for Lloa.
+        </p>
+    </section>
+
+</div>
+
+<footer>
+    Technology in Lloa's Daily Activities | Educational Project 2026
+</footer>
+
+<a href="#top" class="top-btn">↑ Top</a>
+
+</body>
+</html>
